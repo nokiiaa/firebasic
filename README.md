@@ -1,6 +1,7 @@
 # Firebasic
 
 A compiler for my own peculiar programming language that resembles Visual Basic, but has support for lower-level features such as pointers.
+It uses another project of mine, NIR, to convert code into an intermediate representation, which is optimized and then dealt with by individual backends.
 
 ## Requirements:
 - nasm (for assembling x64 code)

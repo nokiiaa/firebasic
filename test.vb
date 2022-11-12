@@ -4,15 +4,15 @@ Function Mul(a As Integer, b As Integer) As Integer
 End Function
 
 Structure Str
-	Raw As Char*
-	Function Length As Integer
-		Dim n As Integer = 0
-		Dim ptr As Char* = Raw
-		While *ptr
-			ptr += 1
-			n += 1
-		End While
-		Return n
+    Raw As Char*
+    Function Length As Integer
+        Dim n As Integer = 0
+        Dim ptr As Char* = Raw
+        While *ptr
+            ptr += 1
+            n += 1
+        End While
+        Return n
 	End Function
 End Structure
 

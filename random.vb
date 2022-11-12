@@ -37,10 +37,10 @@ Function Main As Integer
     Dim state As UInteger = 244
     Dim message As Char* = "Your random number: __________."
         
-	While True
+    While True
         Itoa(Rand(&state) Mod 1000, message + 20)
         MessageBoxA(NULL, message, "Here it is! (wow)", 0)
-	End While
+    End While
     
-	Return 0
+    Return 0
 End Function
