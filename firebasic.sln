@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firebasic", "firebasic\firebasic.csproj", "{B5A453B8-C226-47B4-9D48-F1CF9557C296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIR", "..\NIR\NIR.csproj", "{AB5CED12-26A4-4463-A469-E2781D4F4839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5A453B8-C226-47B4-9D48-F1CF9557C296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A453B8-C226-47B4-9D48-F1CF9557C296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A453B8-C226-47B4-9D48-F1CF9557C296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A453B8-C226-47B4-9D48-F1CF9557C296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5CED12-26A4-4463-A469-E2781D4F4839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5CED12-26A4-4463-A469-E2781D4F4839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5CED12-26A4-4463-A469-E2781D4F4839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5CED12-26A4-4463-A469-E2781D4F4839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4DF74D-6DD7-4F12-B2C1-8F77C2FBBF73}
+	EndGlobalSection
+EndGlobal
